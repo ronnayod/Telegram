@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ส่งข้อความไปยัง Telegram</h1>
+        <label>Token</label>
+        <input type="text" id="token" placeholder="กรุณากรอกเลขToken">
+        <label>ChatId</label>
+        <input type="text" id="chatId" placeholder="กรุณากรอกรหัสChatId">
+        <label>กรุณากรอกข้อความ</label>
+        <input type="text" id="message" placeholder="พิมพ์ข้อความที่ต้องการแจ้งเตือน" />
+        <button onclick="sendMessage()">ส่งข้อความ</button>
+    </div>
+
+    <!-- เชื่อมต่อไฟล์ JavaScript -->
+    <script src="js/index.js"></script>
+</body>
+</html>
